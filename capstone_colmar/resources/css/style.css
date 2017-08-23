@@ -1,0 +1,404 @@
+html {
+	font-family: "Helvetica", sans-serif;
+	font-size: 16px;
+	line-height: 1.2rem;
+}
+
+body {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	background-color: white;
+}
+
+.site_container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gainsboro;
+	border: 1px solid gray;
+}
+.site_container:nth-child(2n + 1) {
+	background-color: white;
+}
+
+
+
+h1 {
+	font-family: Helvetica;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: left;
+	line-height: 1.4;
+	vertical-align: middle;
+}
+
+h2 {
+	font-size: 1.3rem;
+	font-weight: normal;
+	text-align: left;
+	line-height: 1.6;
+	vertical-align: middle;
+	margin-top: 0.5rem;
+}
+h4 {
+	font-size: 0.9rem;
+	line-height: 1.4;
+	font-weight: normal;
+}
+h6 {
+	font-size: 0.8rem;
+	margin-top: 1rem;
+	font-weight: normal;
+}
+p {
+	font-size: 0.9rem;
+	line-height: 1.4;
+}
+
+#section_heading h1 {
+ text-align: center;
+	vertical-align: middle;
+	height: 100%;
+	margin-top: 2rem;
+}
+
+a {
+	color: deepskyblue;
+	line-height: 1.6;
+	font-size: 1.2rem;
+	text-decoration: none;
+}
+
+.button a {
+	color: white;
+	font-size: 1.5rem;
+	transition: font-size 500ms ease-out 100ms;
+}
+.button a:hover {
+	font-size: 2rem;
+	color: deepskyblue;
+}
+
+.header_desktop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 4rem;
+}
+.header_mobile {
+	display: none;
+}
+
+
+#name_colmar {
+	color: dimgray;
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
+}
+#name_academy {
+	color: darkgrey;
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
+}
+.logo_webname, .webname {
+	display: flex;
+	align-items: center;
+	height: 2rem;
+}
+.nav_top ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 1.5rem
+	
+}
+.nav_gap {
+	width: 1rem;
+	height: 4rem;
+	background-color: mediumaquamarine;
+}
+
+.button {
+	text-align: center;
+	vertical-align: middle;
+	height: auto;
+	width: 80%;
+	background-color: darkslategray;
+	color: white;
+	padding: 0.5rem;
+	margin: 1rem auto;
+	border: 0.5px solid white;
+}
+
+.main_display {
+	display: flex;
+	flex-flow: row;
+}
+
+
+
+.top_segment {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	width: 60%;
+}
+.side_segments{
+	display: flex;
+	flex-flow: column;
+	width: 40%;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem
+}
+.side_segment {
+	display: flex;
+}
+.information .side_segments{
+	border-left: border: 1px solid gray;
+}
+.information .side_segment:first-child {
+	border-top-color: transparent;
+}
+.information .side_segment:last-child {
+border-bottom-color: transparent;
+	background-color: gainsboro;
+}
+.information .side_segment {
+	border: 1px solid gray;
+}
+.img_mobile {
+	display: none;
+}
+.exhibit .side_segment:first-child {
+;
+	background-color: gainsboro;
+}
+.side_segment .img_container {
+	width: 35%;
+	margin: 0.5rem;
+}
+.side_segment .content {
+	width: 65%;
+}
+.information .top_segment .content, #topbanner .content {
+/*	margin-left: 1rem;*/
+}
+.content {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+.top_segment .content {
+	margin: 0 1.5rem 2rem 1.5rem;
+}
+#topbanner {
+	margin: auto;
+}
+#topbanner .img_banner{
+	width: 60%;
+	height: auto;
+}
+#topbanner .content {
+	width: 40%;
+	margin: 2rem 0.75rem;
+}
+.courses_grid {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 1rem 4rem;
+}
+
+.courses_list {
+	display: none;
+}
+.course_segment {
+	max-width:  30%;	
+	margin: 0.5rem 0.5rem;
+	background-color: white
+}
+
+.course_segment .content {
+	height: auto;
+	padding: 1rem 1rem 1.5rem 1rem;
+}
+
+/*  Image Containers  */
+.img_container {
+	display: flex;
+	flex-flow: row;
+	width: auto;
+	margin: 2rem 1.5rem;
+}
+
+.img_container img, .img_container video {
+	height: 100%;
+	width: 100%;
+}
+
+.img_logo {
+	height: 32px;
+	width: auto;
+	margin-right: 0.2rem;
+}
+
+/*  Footer  */
+footer {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.nav_footer ul {
+	display: flex;
+	
+}
+
+.nav_footer li {
+	padding-right: 1rem;
+	font-size: 0.8rem;
+	color: grey;
+}
+
+#section_heading p {
+	margin: 2rem auto;
+	text-align: center;
+}
+
+.img_course {
+	margin: 0;
+}
+
+
+
+@media only screen and (max-width: 960px) {
+	html {
+		font-size: 14px
+	}
+	.site_container {
+		width: auto;
+		max-width: 470px;
+		display: flex;
+		flex-flow: column;
+		height: auto;
+	}
+
+	.header_desktop {
+		display: none;
+	}
+	.header_mobile {
+		display: block;
+		justify-content: space-around;
+		align-items: center;
+		height: 4rem;
+	}
+	.nav_mobile {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin: 1rem auto auto auto;
+		width: 470px;
+		padding: 0;
+	}
+
+	.main_display {
+		flex-flow: column;
+	}
+	.side_segment {
+		flex-flow: column;
+	}
+	#topbanner .img_banner, #topbanner .content {
+		display: flex;
+		width: auto;
+		height: auto;
+		margin: 0;
+		padding: 0rem;
+	}
+	#topbanner .content {
+		padding: 2rem 2rem;
+	}
+	.side_segment .img_container {
+		margin: 0rem;
+	}
+
+	.img_container {
+		margin: 0;
+	}
+
+	.side_segments{
+		display: flex;
+		flex-flow: column;
+		margin-top: 1.5rem;
+		margin-bottom: 1rem;
+		width: auto;
+		margin: 0;
+		
+	}
+	
+	.site_container .information .side_segment {
+		background-color: white;
+	}
+	
+	.side_segment .img_container {
+		width: auto;
+		margin: 0rem;
+	}
+
+	.top_segment {
+		width: auto;
+	}
+	.top_segment .content, .content {
+		margin: 0 auto;
+		width: auto;
+		padding: 1rem;
+	}
+	
+	.img_desktop {
+		display: none;
+	}
+	.img_mobile {
+		display: inline-flex;
+	}
+	.information .img_container {
+		padding: 1rem;
+	}
+	
+	.courses_grid {
+		display: none;
+	}
+	.courses_list {
+		display: block;
+		justify-content: space-around;
+		margin-bottom: 2rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.courses {
+		background-color: azure;
+		width: 470px;
+		padding: auto;
+	}
+
+	.courses_list li{
+		background-color: gainsboro;
+		margin: 1rem;
+		padding: 1.5rem 3rem;
+		font-size: 1.5rem;
+	}
+	
+	.exhibit .side_segments, .exhibit .top_segment .content {
+		display: none;
+	}
+	.nav_footer {
+		display: none;
+	}
+	footer {
+		width: 470px;
+		margin: auto;
+		padding: 1rem 0rem;
+		text-align: center;
+	}
+}
